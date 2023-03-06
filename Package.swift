@@ -19,7 +19,7 @@ let package = Package(
             targets: ["Charts"])
     ],
     dependencies: [
-        .package(package: "swift-algorithms", url: "https://github.com/sharaththegeek/swift-algorithms", .branch("main"))
+        .package(url: "https://github.com/sharaththegeek/swift-algorithms", from: "main")
     ],
     targets: [
         .target(
